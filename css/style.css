@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --produc-container: #ffffff;
+    --fondo: #e9e9e9;
+    --letras: #333;
+    --shadow: #333
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: var(--letras);
+    background-color: var(--fondo);
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-icon{
+    width: 50px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.logo {
+    padding-left: 10px;
+}
+.icon-cart{
+    width: 40px;
+    stroke: black;
+}
+.icon-cart:hover{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.container-icon{
+    position: relative;
+}
+.count-product{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 55%;
+    right: 0;
+    background-color: black;
+    color: #ffffff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#contador-productos{
+    font-size: 14px;
+}
+.container-cart-product{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #ffffff;
+    width: 300px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.icon-close{
+    width: 20px;
+    height: 20px;
+}
+.icon-close:hover{
+    cursor: pointer;
+    stroke: red;
+}
+.cart-product{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.95; 
+    align-items: flex-end;
+}
+
+.titulo-producto-carrito{
+    font-size: 14px;
+}
+.precio-producto-carrito{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.cantidad-producto-carrito{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-cart-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn-comprar{
+    border: none;
+    background: none;
+    background-color: black;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hidden-cart{
+    display: none !important;
+}
+.cart-empty{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.hidden-empty{
+    display: none;
+}
+/* main */
+
+.portada{
+    height: 100px;  
+    width: 100%;
+    overflow: hidden;
+}
+.image-portada{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.container-items{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr);*/
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.item{
+    background-color: var(--produc-container);
+    border-radius: 10px;
+    width: 250px;
+    transition: all 500ms ease 0s;
+}
+.item:hover{
+    box-shadow: 0 10px 20px var(--shadow);
+    transform: scale(1.1);
+}
+.info-product{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: #ffffff;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.info-product button:active{
+    background-color: rgba(0, 0, 0, 0.542);
+}

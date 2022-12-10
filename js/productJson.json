@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "titleProduct": "Gaomon S620",
+        "image": "https://dsm01pap002files.storage.live.com/y4mTvrKAiFFUjpmMWGPMqbVnXErBJkOi7JAdvNk8SX6bNKb9hzj_lO_m3kTJvvCVkztd6GF1aB5f39Cf-h3E47OvwguihV63fXEdvae9aVqmNW0N8mxiMMPBNq9uXlZso5A9DF20RDdQr7sUIGhMu-gZiF-_bSueMIP65hMNb7vp8hbZECrmCzOPuZeTZiVqsnk?width=1000&height=1000&cropmode=none",
+        "price": "S/. 126.99"
+    },
+    {
+        "id": 1,
+        "titleProduct": "Gaomon S630",
+        "image": "https://dsm01pap002files.storage.live.com/y4mHn5gfrjT5jo9CV-0KIkSd7T9n01CtQYhcCfI57FIevgE7UFqhdWOvNA3T_W1lZVLwNPHDfVrUKLSpElRF2hvyuPQuh4CvavYf8fYbDi4xoU0hEeeeRsSLQyXi6zNIzQDPv_XJQgFjgD7PITro0T6OLZW2vnnj7qjpi7jignKZRUAjA3wPaxzNcisc5kIE0iw?width=800&height=800&cropmode=none",
+        "price": "S/. 147.99"
+    },
+    {
+        "id": 2,
+        "titleProduct": "Lenovo K3",
+        "image": "https://dsm01pap002files.storage.live.com/y4mzR0QtRZpUbGCSTiHDFdOU_t7gkdQm3vmDYkwu4KG9SnL_0bCxEisrGMzrxULfk4Y819dZirDlfp3nssUmdorjk-DS4XDyHhqFeGzpFSJ0ixJRluJcvvn4V0OnP3lxYlq9xpyfCGIGR0UIP3yYZQLQwxL4FoduhMIa6Opm22fwQdH6Dndwrxo-DFLIoyYUP1A?width=800&height=800&cropmode=none",
+        "price": "S/. 47.99"
+    },
+    {
+        "id": 3,
+        "titleProduct": "Xiaomi Haylou W1",
+        "image": "https://dsm01pap002files.storage.live.com/y4mfMoN5NoSZ-bOjFIfif1fEQaWRh2Q4bXkCV-X0Xd3wbh-ZgvZuTjGEQXNRZYXTmWV3S5etKfKfBpNOtGQxaQbScAxB7ZfQUnJqIXD4GY1KBtierdLdrCCJJskmIyIuXJsq0qe-NMUJkiv2mRGN_uOCvEy8lJ7Fhp32-XAcklTIaB8oGQhgOTccI6DwY6lM_ax?width=1000&height=1000&cropmode=none",
+        "price": "S/. 126.99"
+    },
+    {
+        "id": 4,
+        "titleProduct": "Haylou RT2",
+        "image": "https://dsm01pap002files.storage.live.com/y4mR-hvu75BjGZM2jh1BhYJFdWzfbc6KDQUkb-AD677TYBqEXgdYf6AefbRN0kRI7JfFZnzkTxghnPAPsQvRO03_-Zp9kfJT3nhA9KTkOR32kbpwjTsaT_PqM8ENxLN7cpJKoC83Fy7giNvcaic_ST5kIymZ26l-MMv-vzXqTGdhAxQSHG8PbB4oApohWtxk2oT?width=2560&height=2560&cropmode=none",
+        "price": "S/. 156.99"
+    }
+]
