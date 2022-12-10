@@ -81,13 +81,13 @@ totolir = () => {
 showHTML = () => {
     
     if(allProduct.length > 0){
-        cartTotal.classList.remove('hidden-cart')
-        totalContainer.classList.remove('hidden-cart')
-        cartEmpty.classList.add('hidden-cart')
+        cartTotal.classList.remove('hidden-empty')
+        totalContainer.classList.remove('hidden-empty')
+        cartEmpty.classList.add('hidden-empty')
     } else{
-        cartTotal.classList.add('hidden-cart')
-        totalContainer.classList.add('hidden-cart')
-        cartEmpty.classList.remove('hidden-cart')
+        cartTotal.classList.add('hidden-empty')
+        totalContainer.classList.add('hidden-empty')
+        cartEmpty.classList.remove('hidden-empty')
     }
 
     rowProduct.innerHTML = ''
